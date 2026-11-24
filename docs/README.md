@@ -1,4 +1,4 @@
-# Headline
+
 # Portafolio de Sistemas Informáticos
 
 ¡Bienvenido a mi portafolio de Sistemas Informáticos!
@@ -24,4 +24,5 @@ trabajos realizados durante el curso.
 > [!NOTE]
 > Este portafolio se irá actualizando con los
 > contenidos trabajados durante el curso.
+
 > An awesome project.
