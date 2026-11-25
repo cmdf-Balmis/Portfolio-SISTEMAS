@@ -1,9 +1,29 @@
 - [Inicio](/)
 
-- UT7 - Aplicaciones Informáticas
-  - [Licencias](ut7/licencias.md)
-  - [Ofimática](ut7/ofimatica.md)
+- UT1 -  SISTEMAS INFORMÁTICOS: ARQUITECTURA Y COMPONENTES
+  - 1.1 Arquitectura y Componentes
+    - [Introducción al HW](ut1/introducción.md)
+    - [Medidas de la información](ut1/Medidas.md)
+    - [POST](ut1/POST.md)
+    - [Arquitectura](ut1/Arquitectura.md)
+    - [Procesador](ut1/Procesador.md)
+    - [Placa Base - motherboard](ut1/PlacaBase.md)
+    - [Caja y fuente de alimentación](ut1/CajaYFuente.md)
+    - [Memoria RAM](ut1/MemoriaRAM.md)
+    - [GPU](ut1/GPU.md)
+    - [Almacenamiento](ut1/Almacenamiento.md)
+    - [Interfaces y Conectores](ut1/Interfaces.md)
+    - [Otros Componentes](ut1/OtroComponentes.md)
+  - 1.2 Tipos de Redes y Componentes
+    - [Tipos de Redes y Topologías](ut1/TiposDeRedes.md)
+    - [Componentes y Protocolos](ut1/ComponentesYProtoclos.md)
+  - 1.3 Precauciones Básicas y Montaje
+    - [Precauciones básicas y montaje](ut1/PrecaucionesBasicas.md)
 
-- UT1 - Hardware y redes
-  - [Componentes y periféricos](ut1/hardware.md)
-  - [Topologías de red](ut1/redes.md)
+- UT7 - ELABORACIÓN DE DOCUMENTACIÓN TÉCNICA
+  - [7.1 Clasificación y licencias de software](ut7/licencias.md)
+  - [7.2 Necesidades de software en entornos productivos](ut7/NecesidadesSoft.md)
+  - [7.3 Documentación técnica y herramientas ofimáticas](ut7/ofimatica.md)
+  - [7.4 Correo y mensajería electrónica](ut7/CorreoMensajeria.md)
+  - [7.5 Transferencia de ficheros](ut7/Transferencia.md)
+  - [7.6 Búsqueda y fiabilidad de documentación técnica](ut7/Busqueda.md)

@@ -1,36 +1,32 @@
-# Licencias de software
+# Clasificación y licencias del software
 
-## ¿Qué es una licencia?
+El **software** es el conjunto de programas e instrucciones utilizados por un sistema informático. Una **licencia** establece las condiciones de uso, modificación y distribución.
 
-Una licencia de software establece las condiciones
-para utilizar, copiar, modificar o distribuir un programa.
-
-## Tipos de licencias
-
-| Licencia | Características | Ejemplo |
+## Según la licencia
+| Tipo | Características | Ejemplo |
 |---|---|---|
-| Propietaria | Uso sujeto a restricciones | Windows |
-| Libre | Permite usar, estudiar, modificar y compartir | LibreOffice |
-| Freeware | Gratuito, no necesariamente libre | Adobe Reader |
-| Shareware | Versión de evaluación | Software de prueba |
+| Propietario | Uso sujeto a condiciones del titular | Microsoft Office |
+| Libre / código abierto | Derechos para estudiar, modificar y compartir bajo su licencia | LibreOffice |
+| Freeware | Gratuito, pero no necesariamente libre | Adobe Acrobat Reader |
+| Shareware / trial | Prueba gratuita o con limitaciones | Edición de prueba comercial |
+| Dominio público | Sin derechos exclusivos vigentes aplicables al programa | Software publicado válidamente en dominio público |
 
-## Clasificación por propósito
+**Importante:** «libre» no es sinónimo de «gratis». Licencias libres como **MIT, GPL o Apache 2.0** tienen condiciones diferentes.
 
-El software también puede clasificarse según su función:
+## Según el propósito
+- **De sistema:** Windows, Linux; administran el hardware y recursos.
+- **De aplicación:** Word, navegador; permiten realizar tareas.
+- **De desarrollo:** VS Code, compiladores; ayudan a crear software.
 
-- **Sistema:** administra los recursos del ordenador.
-- **Aplicación:** permite realizar tareas del usuario.
-- **Desarrollo:** sirve para crear otros programas.
+## Tipologías de aplicación
+Ofimática, diseño, comunicación, seguridad, gestión empresarial (ERP, TPV), educación y ocio.
 
-## Ejemplo de código
-
-Podemos consultar la versión de Node.js
-desde la terminal:
-
-```bash
-node -v
+```text
+Pregunta al elegir un programa:
+¿Para qué sirve? + ¿Qué licencia tiene? + ¿Qué puedo hacer con él?
 ```
 
 > [!NOTE]
-> Software libre y software gratuito no significan
-> necesariamente lo mismo.
+> Un programa gratuito puede seguir siendo propietario y prohibir modificaciones o redistribución.
+
+**Repaso:** ¿Qué diferencia hay entre software de sistema y de aplicación? **Gestionar el equipo frente a realizar tareas del usuario.**

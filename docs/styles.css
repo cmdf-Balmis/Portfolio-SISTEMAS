@@ -1,0 +1,320 @@
+
+
+
+:root {
+  --theme-color: #7655b5;
+
+  --eva-bg: #f8f5ff;
+  --eva-sidebar: #eee6fa;
+  --eva-purple: #7655b5;
+  --eva-purple-light: #d8c5f3;
+  --eva-green: #a7efb6;
+  --eva-green-dark: #398762;
+  --eva-text: #393249;
+  --eva-border: #d8c9e8;
+}
+
+/* ===== FONDO GENERAL ===== */
+
+body {
+  background: var(--eva-bg);
+  color: var(--eva-text);
+}
+
+/* ===== BARRA LATERAL ===== */
+
+.sidebar {
+  background: var(--eva-sidebar);
+  border-right: 2px solid var(--eva-purple-light);
+}
+
+.sidebar .app-name a {
+  color: var(--eva-purple);
+  font-size: 21px;
+  font-weight: 800;
+}
+
+/* Enlaces del menú */
+.sidebar-nav li a {
+  color: #514466;
+  border-radius: 9px;
+  transition:
+    background 0.2s ease,
+    color 0.2s ease,
+    transform 0.2s ease;
+}
+
+/* Efecto al pasar el ratón */
+.sidebar-nav li a:hover {
+  background: #dfcef6;
+  color: #63459e;
+  transform: translateX(4px);
+}
+
+/* Apartado seleccionado */
+.sidebar-nav li.active > a {
+  color: #286d4d;
+  font-weight: 700;
+  background: #c9f4d3;
+  border-left: 4px solid #55a875;
+  padding-left: 10px;
+}
+
+/* ===== BUSCADOR ===== */
+
+.search input {
+  background: #ffffff !important;
+  border: 1px solid var(--eva-border) !important;
+  border-radius: 10px;
+  padding: 10px !important;
+  color: var(--eva-text) !important;
+}
+
+.search input:focus {
+  border-color: var(--eva-purple) !important;
+  outline: 2px solid #e3d4fa;
+}
+
+/* ===== CONTENIDO ===== */
+
+.markdown-section {
+  color: var(--eva-text);
+}
+
+.markdown-section h1 {
+  color: #65439f;
+  font-weight: 800;
+  border-bottom: 3px solid var(--eva-green);
+  padding-bottom: 12px;
+}
+
+.markdown-section h2 {
+  color: var(--eva-purple);
+  border-left: 5px solid #9bddaa;
+  padding-left: 13px;
+}
+
+.markdown-section h3 {
+  color: var(--eva-green-dark);
+}
+
+.markdown-section strong {
+  color: #65439f;
+}
+
+/* Enlaces del contenido */
+.markdown-section a {
+  color: var(--eva-purple);
+  text-decoration: none;
+  transition: color 0.2s ease;
+}
+
+.markdown-section a:hover {
+  color: var(--eva-green-dark);
+  text-decoration: underline;
+}
+
+/* ===== TABLAS ===== */
+
+.markdown-section table {
+  border-collapse: separate;
+  border-spacing: 0;
+  border: 1px solid var(--eva-border);
+  border-radius: 12px;
+  overflow: hidden;
+}
+
+.markdown-section th {
+  background: #e0d1f7;
+  color: #49316f;
+  font-weight: 700;
+}
+
+.markdown-section td {
+  background: #ffffff;
+  color: var(--eva-text);
+}
+
+.markdown-section tr:nth-child(even) td {
+  background: #ebfaee;
+}
+
+.markdown-section tr:hover td {
+  background: #dff5e6;
+}
+
+/* ===== CÓDIGO ===== */
+
+/* Código en línea */
+.markdown-section p code,
+.markdown-section li code,
+.markdown-section td code {
+  background: #e9dffa;
+  color: #6744a3;
+  padding: 3px 7px;
+  border-radius: 6px;
+}
+
+/* Bloques de código */
+.markdown-section pre {
+  background: #272037;
+  color: #f3edff;
+  border: 1px solid #a78bd6;
+  border-radius: 12px;
+  overflow: auto;
+}
+
+.markdown-section pre code {
+  background: transparent;
+}
+
+/* ===== NOTAS Y AVISOS ===== */
+
+.markdown-section blockquote {
+  background: #e1f7e7;
+  color: #315842;
+  border-left: 5px solid #65b983;
+  border-radius: 10px;
+  padding: 15px 20px;
+  margin: 18px 0;
+}
+
+.markdown-section blockquote p {
+  color: #315842;
+}
+
+/* ===== IMÁGENES ===== */
+
+.markdown-section img {
+  border-radius: 12px;
+  max-width: 100%;
+}
+
+/* ===== LÍNEAS DIVISORIAS ===== */
+
+.markdown-section hr {
+  border: none;
+  border-top: 2px dashed #d8c5f3;
+  margin: 30px 0;
+}
+
+/* ===== BOTÓN DEL MENÚ ===== */
+
+.sidebar-toggle {
+  background: var(--eva-sidebar);
+  border-radius: 0 10px 10px 0;
+}
+
+.sidebar-toggle span {
+  background-color: var(--eva-purple);
+}
+
+/* ===== EFECTOS SUAVES ===== */
+
+.markdown-section h1,
+.markdown-section h2,
+.markdown-section h3 {
+  transition: color 0.2s ease;
+}
+
+.markdown-section h2:hover {
+  color: #398762;
+}
+
+/* ===== DISPOSITIVOS MÓVILES ===== */
+
+@media (max-width: 768px) {
+  .markdown-section h1 {
+    font-size: 1.8rem;
+  }
+
+  .markdown-section h2 {
+    font-size: 1.4rem;
+  }
+
+  .sidebar .app-name a {
+    font-size: 18px;
+  }
+}
+
+/* Evitar animaciones si el usuario
+   prefiere movimiento reducido */
+@media (prefers-reduced-motion: reduce) {
+  .sidebar-nav li a,
+  .markdown-section a,
+  .markdown-section h1,
+  .markdown-section h2,
+  .markdown-section h3 {
+    transition: none;
+  }
+}
+.markdown-section table {
+  display: table;
+  width: 100%;
+  border-collapse: collapse;
+  border-spacing: 0;
+  border: 1px solid #d8c9e8;
+  border-radius: 10px;
+  overflow: hidden;
+  margin: 20px 0;
+}
+
+/* Celdas */
+.markdown-section th,
+.markdown-section td {
+  border: 1px solid #ddd3ea;
+  padding: 12px 15px;
+  text-align: left;
+  vertical-align: middle;
+}
+
+/* Encabezados */
+.markdown-section th {
+  background: #e0d1f7;
+  color: #49316f;
+  font-weight: 700;
+}
+
+/* Filas normales */
+.markdown-section td {
+  background: #ffffff;
+  color: #393249;
+}
+
+/* Filas alternas */
+.markdown-section tr:nth-child(even) td {
+  background: #eaf8ee;
+}
+
+/* Efecto al pasar el ratón */
+.markdown-section tr:hover td {
+  background: #dff5e6;
+}
+
+/* Evitar que las tablas se salgan */
+.markdown-section {
+  overflow-wrap: break-word;
+}
+.markdown-section pre {
+  background: #272037 !important;
+  border: 1px solid #a78bd6;
+  border-radius: 12px;
+  padding: 20px;
+}
+
+/* Texto del bloque */
+.markdown-section pre code {
+  color: #f3edff !important;
+  background: transparent !important;
+}
+
+/* Texto sin resaltar */
+.markdown-section pre code,
+.markdown-section pre code .token {
+  text-shadow: none;
+}
+
+/* Ocultar el nombre del lenguaje si molesta */
+.markdown-section pre::after {
+  color: #c9b7e9;
+}
