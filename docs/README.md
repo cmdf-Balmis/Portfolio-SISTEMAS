@@ -1,13 +1,12 @@
 
 # Portafolio de Sistemas Informáticos
 
-¡Bienvenido a mi portafolio de Sistemas Informáticos!
+¡Bienvenidos a mi portfolio de documentación de Sistemas Informaticos!
 
-Soy estudiante de 1.º de Desarrollo de Aplicaciones
+Me llamo Cesar Miguel Durrego Figuero, soy estudiante de 1.º de Desarrollo de Aplicaciones
 Multiplataforma (DAM).
 
-En esta página recopilaré mis apuntes, prácticas y
-trabajos realizados durante el curso.
+En esta pagina de documentación, actualizare con la información que vaya viendo en clase, para asi tener todo organizado y poder estudiar con calma, de momento llevo solo 2 unidades.
 
 ## Unidades del curso
 
@@ -22,7 +21,5 @@ trabajos realizados durante el curso.
 | UT7 | En desarrollo |
 
 > [!NOTE]
-> Este portafolio se irá actualizando con los
-> contenidos trabajados durante el curso.
-
+> Tambien puedo poner notas
 > An awesome project.
